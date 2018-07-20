@@ -8,3 +8,9 @@ body{
   cursor: url(../images/target.png)24 24 ,auto;
   position: relative;
 }
+#panel{
+  background-color: black;
+  width: 510px;
+  height:20px;
+  color: white;
+}

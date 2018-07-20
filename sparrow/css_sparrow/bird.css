@@ -7,3 +7,10 @@
 .bird.red{
   background-image: url(../images/bird-red.png);
 }
+.bird.red.dying{
+  animation:die 0.5s;
+}
+@keyframes die{
+  0%{transform :rotate(0deg) scale(1); }
+  100%{transform :rotate(720deg) scale(0.1);}
+}
